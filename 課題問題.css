@@ -74,15 +74,16 @@ footer {
   main {
     width: 100%;
     display: block;
-    margin-top:50px;
-    margin-bottom:50px;
-  }
-}
-  .step-box {
-width: 90%;
+    margin:50px auto;
 
-margin-top: 20px;
   }
+
+  .step-box {
+  width: 90%;
+  margin: 20px auto 0;
+ 
+  }
+  
   .step-img1{
   height: 150px;
   }
@@ -93,4 +94,9 @@ margin-top: 20px;
 
   .step-img3{
   height: 150px
+  }
+
+ .step-box:last-child {	
+
+  margin: 20px auto 0;
   }
